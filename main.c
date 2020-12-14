@@ -48,8 +48,8 @@ void task5(){
 printf("vvedite chisla A B C\n");
 int a,b,c;
 scanf("%d%d%d",&a,&b,&c);
-
-printf("pomestitsa %d kvadratov\n", (a/c)*(b/c));
+int s=(a/c)*(b/c);
+printf("pomestitsa %d kvadratov  svobodnaya ploshad: %d \n",s,a*b-s*c*c);
 
 }
 
